@@ -15,3 +15,9 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+
+void MainWindow::on_ClickMe_clicked()
+{
+    ui->textEdit->setText("Hello World!");
+}
+
